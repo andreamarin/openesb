@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.encoder.hl7.aip">
+    <module_version install_time="1540339267876" last="true" origin="installer" specification_version="8.2">
+        <file crc="2813849322" name="config/Modules/org-netbeans-modules-encoder-hl7-aip.xml"/>
+        <file crc="3434572431" name="modules/org-netbeans-modules-encoder-hl7-aip.jar"/>
+    </module_version>
+</module>

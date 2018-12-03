@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.wsdlextensions.ldap">
+    <module_version install_time="1540339284050" last="true" origin="installer" specification_version="8.2">
+        <file crc="4052144683" name="config/Modules/org-netbeans-modules-wsdlextensions-ldap.xml"/>
+        <file crc="2052684296" name="modules/org-netbeans-modules-wsdlextensions-ldap.jar"/>
+    </module_version>
+</module>

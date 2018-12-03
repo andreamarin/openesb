@@ -1,0 +1,8 @@
+FULL_PRODUCT_NAME="Open Enterprise Service Bus"
+                                    SHORT_PRODUCT_NAME="Open_ESB"
+                                    FULL_VERSION="3.1.2.3"
+                                    MAJOR_VERSION="3"
+                                    MINOR_VERSION="1.2-3"
+                                    BUILD_NUMBER="181004_0835"
+                                    CODELINE="${env.CODELINE}"
+                                    TIMESTAMP="181004_0835"

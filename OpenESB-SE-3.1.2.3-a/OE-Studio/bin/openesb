@@ -1,0 +1,109 @@
+#!/bin/sh
+
+#
+# resolve symlinks
+#
+
+PRG=$0
+
+while [ -h "$PRG" ]; do
+    ls=`ls -ld "$PRG"`
+    link=`expr "$ls" : '^.*-> \(.*\)$' 2>/dev/null`
+    if expr "$link" : '^/' 2> /dev/null >/dev/null; then
+	PRG="$link"
+    else
+	PRG="`dirname "$PRG"`/$link"
+    fi
+done
+
+progdir=`dirname "$PRG"`
+basedir=`pwd`
+
+if [ -f "$progdir"/../etc/openesb.conf ] ; then
+    . "$progdir"/../etc/openesb.conf
+fi
+
+# XXX does not correctly deal with spaces in non-userdir params
+args=""
+
+case "`uname`" in
+    Darwin*)
+        userdir="${default_mac_userdir}"
+        ;;
+    *)
+        userdir="${default_userdir}"
+        ;;
+esac
+while [ $# -gt 0 ] ; do
+    case "$1" in
+        --userdir) shift; if [ $# -gt 0 ] ; then userdir="$1"; fi
+            ;;
+        *) args="$args \"$1\""
+            ;;
+    esac
+    shift
+done
+
+if [ -f "${userdir}"/etc/openesb.conf ] ; then
+    . "${userdir}"/etc/openesb.conf
+fi
+
+if [ -n "$jdkhome" -a \! -d "$jdkhome" -a -d "$progdir/../$jdkhome" ]; then
+    # #74333: permit jdkhome to be defined as relative to app dir
+    jdkhome="$progdir/../$jdkhome"
+fi
+
+readClusters() {
+  if [ -x /usr/ucb/echo ]; then
+    echo=/usr/ucb/echo
+  else
+    echo=echo
+  fi
+  while read X; do
+    if [ "$X" \!= "" ]; then
+      $echo "$progdir/../$X"
+    fi
+  done
+}
+
+clusters=`(cat "$progdir"/../etc/openesb.clusters; echo) | readClusters | tr '\012' ':'`
+
+if [ ! -z "$extra_clusters" ] ; then
+    clusters="$clusters:$extra_clusters"
+fi
+
+launchNbexec() {
+    nbexec=`echo "$progdir"/../platform*/lib/nbexec`
+    sh=sh
+    # #73162: Ubuntu uses the ancient Bourne shell, which does not implement trap well.
+    if [ -x /bin/bash ]
+    then
+        sh=/bin/bash
+    fi
+    if [ "${founduserdir}" = "yes" ]; then
+        exec $sh "$nbexec" "$@"
+    else
+        exec $sh "$nbexec" --userdir "${userdir}" "$@"
+    fi
+}
+
+case "`uname`" in
+    Darwin*)
+        eval launchNbexec \
+            --jdkhome '"$jdkhome"' \
+            -J-Dcom.apple.mrj.application.apple.menu.about.name='"OpenESB Studio"' \
+            -J-Xdock:name='"OpenESB Studio"' \
+            '"-J-Xdock:icon=$progdir/../etc/openesb.icns"' \
+            --clusters '"$clusters"' \
+            ${default_options} \
+            '"$@"'
+        ;;
+    *)
+       eval launchNbexec \
+            --jdkhome '"$jdkhome"' \
+            --clusters '"$clusters"' \
+            ${default_options} \
+            '"$@"'
+       exit 1
+        ;;
+esac

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.edm.editor">
+    <module_version install_time="1540339273321" last="true" origin="installer" specification_version="8.2">
+        <file crc="3608480844" name="config/Modules/org-netbeans-modules-edm-editor.xml"/>
+        <file crc="437094627" name="modules/ext/avalon-logkit-current.jar"/>
+        <file crc="3916769473" name="modules/ext/commons-collections-3.0.jar"/>
+        <file crc="1513594348" name="modules/ext/velocity-1.4.jar"/>
+        <file crc="2231430864" name="modules/org-netbeans-modules-edm-editor.jar"/>
+    </module_version>
+</module>

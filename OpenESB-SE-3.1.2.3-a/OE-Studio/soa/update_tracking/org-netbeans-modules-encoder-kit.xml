@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.encoder.kit">
+    <module_version install_time="1540339283776" last="true" origin="installer" specification_version="8.2">
+        <file crc="2397853945" name="config/Modules/org-netbeans-modules-encoder-kit.xml"/>
+        <file crc="3651748488" name="modules/org-netbeans-modules-encoder-kit.jar"/>
+    </module_version>
+</module>

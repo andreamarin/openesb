@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.iep.samples">
+    <module_version install_time="1540339270207" last="true" origin="installer" specification_version="8.2">
+        <file crc="1211696796" name="config/Modules/org-netbeans-modules-iep-samples.xml"/>
+        <file crc="1412846394" name="modules/org-netbeans-modules-iep-samples.jar"/>
+    </module_version>
+</module>

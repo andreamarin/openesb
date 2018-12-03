@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.xslt.validation">
+    <module_version install_time="1540339291402" last="true" origin="installer" specification_version="8.2">
+        <file crc="2320829333" name="config/Modules/org-netbeans-modules-xslt-validation.xml"/>
+        <file crc="3445475416" name="modules/org-netbeans-modules-xslt-validation.jar"/>
+    </module_version>
+</module>

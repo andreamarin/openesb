@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.wsdlextensions.hl7">
+    <module_version install_time="1540339283010" last="true" origin="installer" specification_version="8.2">
+        <file crc="2910936316" name="config/Modules/org-netbeans-modules-wsdlextensions-hl7.xml"/>
+        <file crc="1232787121" name="modules/org-netbeans-modules-wsdlextensions-hl7.jar"/>
+    </module_version>
+</module>

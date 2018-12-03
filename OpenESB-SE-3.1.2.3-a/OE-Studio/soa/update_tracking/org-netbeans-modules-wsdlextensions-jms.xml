@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.wsdlextensions.jms">
+    <module_version install_time="1540339281775" last="true" origin="installer" specification_version="8.2">
+        <file crc="3595933525" name="config/Modules/org-netbeans-modules-wsdlextensions-jms.xml"/>
+        <file crc="3893158026" name="modules/org-netbeans-modules-wsdlextensions-jms.jar"/>
+    </module_version>
+</module>

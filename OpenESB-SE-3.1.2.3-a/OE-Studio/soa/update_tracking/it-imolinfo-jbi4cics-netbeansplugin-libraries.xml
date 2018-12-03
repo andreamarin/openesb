@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="it.imolinfo.jbi4cics.netbeansplugin.libraries">
+    <module_version install_time="1540339261808" last="true" origin="installer" specification_version="8.2">
+        <file crc="3779678514" name="config/Modules/it-imolinfo-jbi4cics-netbeansplugin-libraries.xml"/>
+        <file crc="984909869" name="modules/ext/activation-1.1.jar"/>
+        <file crc="914671301" name="modules/ext/antlr-2.7.7.jar"/>
+        <file crc="1375204730" name="modules/ext/asm-all-2.2.3.jar"/>
+        <file crc="860279338" name="modules/ext/commons-collections-3.2.jar"/>
+        <file crc="1523910924" name="modules/ext/jaxws-2.2.zip"/>
+        <file crc="1515299342" name="modules/ext/jbi4cics-0.5.jar"/>
+        <file crc="1965251157" name="modules/ext/jcl104-over-slf4j-1.3.1.jar"/>
+        <file crc="3727094234" name="modules/ext/jdom-1.0.jar"/>
+        <file crc="2853171068" name="modules/ext/slf4j-api-1.3.1.jar"/>
+        <file crc="4251723047" name="modules/ext/wsdl4j-1.5.2.jar"/>
+        <file crc="3403732436" name="modules/ext/xfire-aegis-1.2.2.jar"/>
+        <file crc="8840455" name="modules/ext/xfire-core-1.2.2.jar"/>
+        <file crc="1311081241" name="modules/it-imolinfo-jbi4cics-netbeansplugin-libraries.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.compapp.casaeditor">
+    <module_version install_time="1540339278469" last="true" origin="installer" specification_version="8.2">
+        <file crc="3767111161" name="config/Modules/org-netbeans-modules-compapp-casaeditor.xml"/>
+        <file crc="2859894526" name="modules/org-netbeans-modules-compapp-casaeditor.jar"/>
+    </module_version>
+</module>

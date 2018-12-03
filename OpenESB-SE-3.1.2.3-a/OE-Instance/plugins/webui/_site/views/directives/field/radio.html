@@ -1,0 +1,14 @@
+<ng-form name="form{{field.field_name}}">
+    <div class="form-group" ng-class="{'has-error': !form{{field.field_name}}.$valid}">
+        <label for="{{field.field_name}}" class="col-sm-4 control-label">{{field.field_title}}</label>
+        <div class="col-sm-6" tooltip-placement="right" tooltip="{{field.field_description}}">
+            <label ng-repeat="option in field.field_options" class=".radio-inline">
+                <input type="radio" 
+                       id="{{field.field_name}}"
+                       value="{{option.option_value}}" ng-model="field.field_value" ng-required="field.field_required"/>
+                &nbsp;<span ng-bind="option.option_title"></span>&nbsp;
+            </label>
+            <!--<span class="required-error" ng-show="field.field_required && !field.field_value">* required</span>-->
+        </div>
+    </div>
+</ng-form>

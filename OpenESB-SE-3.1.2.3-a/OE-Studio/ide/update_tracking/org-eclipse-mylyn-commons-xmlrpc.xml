@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.eclipse.mylyn.commons.xmlrpc">
+    <module_version install_time="1526991741735" last="true" origin="Ant" specification_version="3.17.0">
+        <file crc="377042161" name="config/Modules/org-eclipse-mylyn-commons-xmlrpc.xml"/>
+        <file crc="2015518638" name="modules/org-eclipse-mylyn-commons-xmlrpc.jar"/>
+    </module_version>
+</module>

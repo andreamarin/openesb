@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.tomcat5">
+    <module_version install_time="1526990920236" last="true" origin="Ant" specification_version="1.45.1">
+        <file crc="337604134" name="config/Modules/org-netbeans-modules-tomcat5.xml"/>
+        <file crc="1701573358" name="modules/locale/org-netbeans-modules-tomcat5_ja.jar"/>
+        <file crc="3266070899" name="modules/locale/org-netbeans-modules-tomcat5_pt_BR.jar"/>
+        <file crc="363962920" name="modules/locale/org-netbeans-modules-tomcat5_ru.jar"/>
+        <file crc="2348963406" name="modules/locale/org-netbeans-modules-tomcat5_zh_CN.jar"/>
+        <file crc="3800747646" name="modules/org-netbeans-modules-tomcat5.jar"/>
+    </module_version>
+</module>

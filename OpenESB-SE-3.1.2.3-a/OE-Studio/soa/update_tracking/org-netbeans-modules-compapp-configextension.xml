@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.compapp.configextension">
+    <module_version install_time="1540339278985" last="true" origin="installer" specification_version="8.2">
+        <file crc="2751904523" name="config/Modules/org-netbeans-modules-compapp-configextension.xml"/>
+        <file crc="785502099" name="modules/org-netbeans-modules-compapp-configextension.jar"/>
+    </module_version>
+</module>

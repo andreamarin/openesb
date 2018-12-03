@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:21940/TiendaElectronica/AlmacenService?wsdl" uri="../ServiciosVenta/ServicioAlmacen/localhost_21940/TiendaElectronica/AlmacenService.wsdl"/>
+    <system systemId="http://localhost:21940/TiendaElectronica/AlmacenService?xsd=1" uri="../ServiciosVenta/ServicioAlmacen/localhost_21940/TiendaElectronica/AlmacenService.xsd_1.xsd"/>
+    <system systemId="http://localhost:21940/PagoOnline/PasarelaPagoService?wsdl" uri="../ServiciosVenta/ServicioPago/localhost_21940/PagoOnline/PasarelaPagoService.wsdl"/>
+    <system systemId="http://localhost:21940/PagoOnline/PasarelaPagoService?xsd=1" uri="../ServiciosVenta/ServicioPago/localhost_21940/PagoOnline/PasarelaPagoService.xsd_1.xsd"/>
+    <system systemId="http://localhost:21940/MensajeriaExpress/EnvioPaquetesService?wsdl" uri="../ServiciosVenta/ServicioMensajeria/localhost_21940/MensajeriaExpress/EnvioPaquetesService.wsdl"/>
+    <system systemId="http://localhost:21940/MensajeriaExpress/EnvioPaquetesService?xsd=1" uri="../ServiciosVenta/ServicioMensajeria/localhost_21940/MensajeriaExpress/EnvioPaquetesService.xsd_1.xsd"/>
+</catalog>

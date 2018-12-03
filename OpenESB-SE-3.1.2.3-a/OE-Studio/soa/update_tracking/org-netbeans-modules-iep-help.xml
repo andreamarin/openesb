@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.iep.help">
+    <module_version install_time="1540339258589" last="true" origin="installer" specification_version="8.2">
+        <file crc="179151517" name="config/Modules/org-netbeans-modules-iep-help.xml"/>
+        <file crc="3871133761" name="modules/docs/org-netbeans-modules-iep-help.jar"/>
+        <file crc="2027096475" name="modules/org-netbeans-modules-iep-help.jar"/>
+    </module_version>
+</module>

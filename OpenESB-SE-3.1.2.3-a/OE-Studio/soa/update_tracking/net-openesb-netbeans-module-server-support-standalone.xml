@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="net.openesb.netbeans.module.server.support.standalone">
+    <module_version install_time="1540339265835" last="true" origin="installer" specification_version="8.2">
+        <file crc="2665288604" name="config/Modules/net-openesb-netbeans-module-server-support-standalone.xml"/>
+        <file crc="1071848283" name="modules/net-openesb-netbeans-module-server-support-standalone.jar"/>
+    </module_version>
+</module>

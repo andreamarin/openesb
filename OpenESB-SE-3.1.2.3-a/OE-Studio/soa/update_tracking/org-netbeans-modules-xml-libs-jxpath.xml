@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.xml.libs.jxpath">
+    <module_version install_time="1540339264301" last="true" origin="installer" specification_version="8.2">
+        <file crc="4203554590" name="config/Modules/org-netbeans-modules-xml-libs-jxpath.xml"/>
+        <file crc="244952907" name="modules/ext/jxpath-1.2.jar"/>
+        <file crc="2135854370" name="modules/org-netbeans-modules-xml-libs-jxpath.jar"/>
+    </module_version>
+</module>

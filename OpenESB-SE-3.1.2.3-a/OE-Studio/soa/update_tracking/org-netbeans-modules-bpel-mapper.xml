@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.bpel.mapper">
+    <module_version install_time="1540339288674" last="true" origin="installer" specification_version="8.2">
+        <file crc="2638419752" name="config/Modules/org-netbeans-modules-bpel-mapper.xml"/>
+        <file crc="3220368325" name="modules/org-netbeans-modules-bpel-mapper.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jbi xmlns="http://java.sun.com/xml/ns/jbi/registry">
+    <components>
+        <component name="sun-http-binding" file-name="httpbc-full.jar" timestamp="1542327870000"/>
+        <component name="sun-bpel-engine" file-name="bpelse.jar" timestamp="1542377835000"/>
+    </components>
+    <shared-libraries>
+        <shared-library name="sun-encoder-library" file-name="encoderlib.jar" timestamp="1542327788000"/>
+        <shared-library name="sun-wsdl-ext-library" file-name="wsdlextlib.jar" timestamp="1542327833000"/>
+    </shared-libraries>
+    <service-assemblies>
+        <service-assembly name="MyCalculatorCA" file-name="MyCalculatorCA.zip" timestamp="1542998171000"/>
+        <service-assembly name="AplicacionTuLibroOnline" file-name="AplicacionTuLibroOnline.zip" timestamp="1542999079000"/>
+    </service-assemblies>
+    <servers>
+        <server name-ref="server">
+            <component-ref name-ref="sun-http-binding" state="Started" install-root="${com.sun.jbi.platform.instanceRoot}/jbi/components/sun-http-binding/install_root" workspace="${com.sun.jbi.platform.instanceRoot}/jbi/components/sun-http-binding/install_root/workspace">
+                <service-units>
+                    <service-unit name="MyCalculatorCA-sun-http-binding" state="Started" service-assembly-ref="MyCalculatorCA"/>
+                    <service-unit name="AplicacionTuLibroOnline-sun-http-binding" state="Started" service-assembly-ref="AplicacionTuLibroOnline"/>
+                </service-units>
+            </component-ref>
+            <component-ref name-ref="sun-bpel-engine" state="Started" install-root="${com.sun.jbi.platform.instanceRoot}/jbi/components/sun-bpel-engine/install_root" workspace="${com.sun.jbi.platform.instanceRoot}/jbi/components/sun-bpel-engine/install_root/workspace">
+                <service-units>
+                    <service-unit name="MyCalculatorCA-MyCalculator" state="Started" service-assembly-ref="MyCalculatorCA"/>
+                    <service-unit name="AplicacionTuLibroOnline-ServiciosVenta" state="Started" service-assembly-ref="AplicacionTuLibroOnline"/>
+                </service-units>
+                <component-config>
+                    <property>
+                        <name>DebugEnabled</name>
+                        <value>false</value>
+                    </property>
+                </component-config>
+            </component-ref>
+            <shared-library-ref name-ref="sun-encoder-library" install-root="${com.sun.jbi.platform.instanceRoot}/jbi/shared-libraries/sun-encoder-library/install_root"/>
+            <shared-library-ref name-ref="sun-wsdl-ext-library" install-root="${com.sun.jbi.platform.instanceRoot}/jbi/shared-libraries/sun-wsdl-ext-library/install_root"/>
+            <service-assembly-ref name-ref="MyCalculatorCA"/>
+            <service-assembly-ref name-ref="AplicacionTuLibroOnline"/>
+        </server>
+    </servers>
+    <clusters/>
+    <configs/>
+</jbi>

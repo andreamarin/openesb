@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.bpel.refactoring">
+    <module_version install_time="1540339288238" last="true" origin="installer" specification_version="8.2">
+        <file crc="2206527857" name="config/Modules/org-netbeans-modules-bpel-refactoring.xml"/>
+        <file crc="4145419022" name="modules/org-netbeans-modules-bpel-refactoring.jar"/>
+    </module_version>
+</module>

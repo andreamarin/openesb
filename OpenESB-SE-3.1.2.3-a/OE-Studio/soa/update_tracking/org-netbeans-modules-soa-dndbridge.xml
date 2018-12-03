@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.soa.dndbridge">
+    <module_version install_time="1540339258807" last="true" origin="installer" specification_version="8.2">
+        <file crc="2660658870" name="config/Modules/org-netbeans-modules-soa-dndbridge.xml"/>
+        <file crc="2171830957" name="modules/org-netbeans-modules-soa-dndbridge.jar"/>
+    </module_version>
+</module>

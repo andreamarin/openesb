@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.wsdlextensions.jdbc">
+    <module_version install_time="1540339282753" last="true" origin="installer" specification_version="8.2">
+        <file crc="4275392056" name="config/Modules/org-netbeans-modules-wsdlextensions-jdbc.xml"/>
+        <file crc="1503182274" name="modules/org-netbeans-modules-wsdlextensions-jdbc.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.soa.jca.jms">
+    <module_version install_time="1540339259693" last="true" origin="installer" specification_version="8.2">
+        <file crc="3178627673" name="config/Modules/org-netbeans-modules-soa-jca-jms.xml"/>
+        <file crc="2609597023" name="modules/docs/org-netbeans-modules-soa-jca-jms.jar"/>
+        <file crc="3551474919" name="modules/org-netbeans-modules-soa-jca-jms.jar"/>
+    </module_version>
+</module>

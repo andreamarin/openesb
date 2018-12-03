@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.xslt.samples">
+    <module_version install_time="1540339290313" last="true" origin="installer" specification_version="8.2">
+        <file crc="924052838" name="config/Modules/org-netbeans-modules-xslt-samples.xml"/>
+        <file crc="2218370758" name="modules/org-netbeans-modules-xslt-samples.jar"/>
+    </module_version>
+</module>

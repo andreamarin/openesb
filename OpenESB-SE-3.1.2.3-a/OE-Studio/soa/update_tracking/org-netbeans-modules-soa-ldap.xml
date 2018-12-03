@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.soa.ldap">
+    <module_version install_time="1540339259920" last="true" origin="installer" specification_version="8.2">
+        <file crc="3976101353" name="config/Modules/org-netbeans-modules-soa-ldap.xml"/>
+        <file crc="761712780" name="modules/org-netbeans-modules-soa-ldap.jar"/>
+    </module_version>
+</module>

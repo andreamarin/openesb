@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.compapp.projects.base">
+    <module_version install_time="1540339268781" last="true" origin="installer" specification_version="8.2">
+        <file crc="3331815220" name="config/Modules/org-netbeans-modules-compapp-projects-base.xml"/>
+        <file crc="2389013938" name="modules/org-netbeans-modules-compapp-projects-base.jar"/>
+    </module_version>
+</module>

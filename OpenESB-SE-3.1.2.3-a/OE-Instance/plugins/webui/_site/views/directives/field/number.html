@@ -1,0 +1,17 @@
+<ng-form name="form{{field.field_name}}">
+    <div class="form-group"
+         ng-class="{'has-error': !form{{field.field_name}}.$valid}">
+        <label for="{{field.field_name}}" class="col-sm-4 control-label">{{field.field_title}}</label>
+        {{myForm.$valid}}
+        <div class="col-sm-6" tooltip-placement="right" tooltip="{{field.field_description}}">
+            <input type="number" 
+                   id="{{field.field_name}}"
+                   name="{{field.field_name}}"
+                   ng-model="field.field_value" 
+                   value="{{field.field_value}}" ng-required="true" 
+                   class="form-control has-error"
+                   min="{{field.field_constraints.min}}" max="{{field.field_constraints.max}}">
+            <!--<span class="required-error" ng-show="field.field_required && !field.field_value">* required</span>-->
+        </div>
+    </div>
+</ng-form>

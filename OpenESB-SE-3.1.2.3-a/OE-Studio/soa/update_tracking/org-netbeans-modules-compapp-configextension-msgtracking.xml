@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.compapp.configextension.msgtracking">
+    <module_version install_time="1540339278721" last="true" origin="installer" specification_version="8.2">
+        <file crc="1845938720" name="config/Modules/org-netbeans-modules-compapp-configextension-msgtracking.xml"/>
+        <file crc="801553762" name="modules/org-netbeans-modules-compapp-configextension-msgtracking.jar"/>
+    </module_version>
+</module>

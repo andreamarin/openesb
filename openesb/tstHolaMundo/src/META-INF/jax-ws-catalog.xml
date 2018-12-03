@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:9080/HolaMundoCAService1/casaPort1?WSDL" uri="wsdl/localhost_9080/HolaMundoCAService1/casaPort1.wsdl"/>
+    <system systemId="http://10.6.76.42:9080/HolaMundoCA-sun-http-binding/HolaMundo/HolaMundoWSDL.wsdl" uri="wsdl/10.6.76.42_9080/HolaMundoCA-sun-http-binding/HolaMundo/HolaMundoWSDL.wsdl"/>
+    <system systemId="http://10.6.76.42:9080/HolaMundoCAService1/casaPort1?WSDL" uri="wsdl/10.6.76.42_9080/HolaMundoCAService1/casaPort1.wsdl"/>
+</catalog>

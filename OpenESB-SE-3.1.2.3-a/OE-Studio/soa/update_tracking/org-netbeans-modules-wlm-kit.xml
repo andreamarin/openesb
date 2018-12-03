@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.wlm.kit">
+    <module_version install_time="1540339286095" last="true" origin="installer" specification_version="8.2">
+        <file crc="2300397546" name="config/Modules/org-netbeans-modules-wlm-kit.xml"/>
+        <file crc="1492977499" name="modules/org-netbeans-modules-wlm-kit.jar"/>
+    </module_version>
+</module>

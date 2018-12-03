@@ -1,0 +1,20 @@
+<div class="webassembly-map" id="webassembly"   style="position:relative" >
+
+    <div class="window service-unit" id="{{su.name}}" ng-repeat="su in map.serviceUnits">
+        <div class="service-unit-label">{{su.name}}</div>
+
+        <div class="process" ng-repeat="process in su.processes">
+            <div class="process-label" id="{{su.name}}-{{process.name}}">{{process.name}}</div>
+            <div class="ineps" id="{{su.name}}-{{process.name}}_ins">
+                <div class="inep" id="{{su.name}}-{{process.name}}-{{input.name}}_in" ng-repeat="input in process.inputs" >{{input.name}}</div>
+            </div>
+             <div class="outeps" id="{{su.name}}-{{process.name}}_outs">
+                <div class="outep" id="{{su.name}}-{{process.name}}-{{output.name}}_out" ng-repeat="output in process.outputs">{{output.name}}</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="window connector {{connector.type}}" id="{{connector.connectionPoint.uid}}-{{connector.name}}" ng-repeat="connector in map.connectors" >
+        <div class="connector-icon">{{shortname(connector.type)}}</div>{{connector.name}}
+    </div>
+<div>

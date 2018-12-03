@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.etl.editor">
+    <module_version install_time="1540339275690" last="true" origin="installer" specification_version="8.2">
+        <file crc="4244526549" name="config/Modules/org-netbeans-modules-etl-editor.xml"/>
+        <file crc="1032636004" name="modules/ext/CmdLineNetbeansTemplate.zip"/>
+        <file crc="437094627" name="modules/ext/avalon-logkit-current.jar"/>
+        <file crc="3916769473" name="modules/ext/commons-collections-3.0.jar"/>
+        <file crc="4117524062" name="modules/ext/etlengine.jar"/>
+        <file crc="3298746026" name="modules/ext/i18n-1.0.jar"/>
+        <file crc="410654694" name="modules/ext/net.java.hulp.i18ntask.jar"/>
+        <file crc="2841111384" name="modules/ext/sbme.jar"/>
+        <file crc="1513594348" name="modules/ext/velocity-1.4.jar"/>
+        <file crc="3293484639" name="modules/org-netbeans-modules-etl-editor.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.encoder.hl7">
+    <module_version install_time="1540339262806" last="true" origin="installer" specification_version="8.2">
+        <file crc="1028809645" name="config/Modules/org-netbeans-modules-encoder-hl7.xml"/>
+        <file crc="2355512507" name="modules/ext/hl7.jar"/>
+        <file crc="1524335208" name="modules/ext/hl7encoder-xsdextension.jar"/>
+        <file crc="2252167903" name="modules/org-netbeans-modules-encoder-hl7.jar"/>
+    </module_version>
+</module>

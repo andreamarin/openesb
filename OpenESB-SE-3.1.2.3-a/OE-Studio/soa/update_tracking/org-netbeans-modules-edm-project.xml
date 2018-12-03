@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.edm.project">
+    <module_version install_time="1540339273728" last="true" origin="installer" specification_version="8.2">
+        <file crc="895720944" name="config/Modules/org-netbeans-modules-edm-project.xml"/>
+        <file crc="2100670694" name="modules/ext/org-netbeans-modules-edm-project-anttask.jar"/>
+        <file crc="2180810361" name="modules/org-netbeans-modules-edm-project.jar"/>
+    </module_version>
+</module>

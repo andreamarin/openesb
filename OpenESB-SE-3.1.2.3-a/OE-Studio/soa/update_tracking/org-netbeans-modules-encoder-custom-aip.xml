@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.encoder.custom.aip">
+    <module_version install_time="1540339267640" last="true" origin="installer" specification_version="8.2">
+        <file crc="587230965" name="config/Modules/org-netbeans-modules-encoder-custom-aip.xml"/>
+        <file crc="3964521162" name="modules/org-netbeans-modules-encoder-custom-aip.jar"/>
+    </module_version>
+</module>

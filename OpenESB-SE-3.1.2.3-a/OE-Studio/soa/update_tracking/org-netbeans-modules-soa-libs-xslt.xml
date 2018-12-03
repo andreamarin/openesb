@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.soa.libs.xslt">
+    <module_version install_time="1540339263001" last="true" origin="installer" specification_version="8.2">
+        <file crc="3593841461" name="config/Modules/org-netbeans-modules-soa-libs-xslt.xml"/>
+        <file crc="2759045100" name="modules/ext/saxon-dom.jar"/>
+        <file crc="3432511711" name="modules/ext/saxon-s9api.jar"/>
+        <file crc="3562548739" name="modules/ext/saxon.jar"/>
+        <file crc="605838802" name="modules/org-netbeans-modules-soa-libs-xslt.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,240 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>net.open-esb</groupId>
+    <artifactId>parent</artifactId>
+    <version>1.0.2</version>
+  </parent>
+
+  <groupId>net.open-esb.admin</groupId>
+  <artifactId>openesb-web-console</artifactId>
+  <version>3.1.2</version>
+  <packaging>war</packaging>
+
+  <scm>
+    <url>git@bitbucket.org:openesb/openesb-web-console.git</url>
+    <connection>scm:git:git@bitbucket.org:openesb/openesb-web-console.git</connection>
+    <developerConnection>scm:git:git@bitbucket.org:openesb/openesb-web-console.git</developerConnection>
+    <tag>openesb-web-console-3.1.2</tag>
+  </scm>
+
+  <name>OpenESB Web Console</name>
+  <description>
+    OpenESB Web Console (Bootstrap / AngularJS) based on the Rest API.
+  </description>
+
+  <organization>
+    <name>OpenESB Community</name>
+    <url>www.open-esb.net</url>
+  </organization>
+
+  <developers>
+    <developer>
+      <id>theyoz</id>
+      <name>Yoram Halberstam</name>
+      <email>yoram dot halberstam at gmail dot com</email>
+    </developer>
+  </developers>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.github.eirslett</groupId>
+        <artifactId>frontend-maven-plugin</artifactId>
+        <version>1.6</version>
+        <configuration>
+          <nodeVersion>v4.9.1</nodeVersion>
+          <installDirectory>node</installDirectory>
+        </configuration>
+        <executions>
+          <!-- INSTALL NODE -->
+          <execution>
+            <id>node and npm install</id>
+            <goals>
+              <goal>install-node-and-npm</goal>
+            </goals>
+            <configuration>
+              <installDirectory>.</installDirectory>
+            </configuration>
+          </execution>
+
+          <!-- INSTALL node_modules -->
+          <execution>
+            <id>npm install</id>
+            <goals>
+              <goal>npm</goal>
+            </goals>
+            <configuration>
+              <arguments>install</arguments>
+              <installDirectory>.</installDirectory>
+              <workingDirectory>.</workingDirectory>
+            </configuration>
+          </execution>
+
+          <!-- BUILD APP -->
+          <execution>
+            <id>bower build</id>
+            <goals>
+              <goal>bower</goal>
+            </goals>
+            <configuration>
+              <arguments>install</arguments>
+              <installDirectory>.</installDirectory>
+              <workingDirectory>.</workingDirectory>
+            </configuration>
+          </execution>
+
+          <execution>
+            <id>grunt build</id>
+            <goals>
+              <goal>grunt</goal>
+            </goals>
+            <configuration>
+              <arguments>build</arguments>
+              <installDirectory>.</installDirectory>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <version>2.4</version>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+            <configuration>
+              <appendAssemblyId>false</appendAssemblyId>
+              <descriptors>
+                <descriptor>src/main/assembly/distribution.xml</descriptor>
+              </descriptors>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.5.1</version>
+        <configuration>
+          <preparationGoals>clean</preparationGoals>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-clean-plugin</artifactId>
+        <version>2.6.1</version>
+        <configuration>
+          <filesets>
+            <fileset>
+              <directory>dist</directory>
+            </fileset>
+            <fileset>
+              <directory>node</directory>
+            </fileset>
+            <fileset>
+              <directory>node_modules</directory>
+            </fileset>
+            <fileset>
+              <directory>etc</directory>
+            </fileset>
+            <fileset>
+              <directory>.tmp</directory>
+            </fileset>
+            <fileset>
+              <directory>app/bower_components</directory>
+            </fileset>
+          </filesets>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>2.3</version>
+        <configuration>
+          <failOnMissingWebXml>false</failOnMissingWebXml>
+          <webResources>
+            <resource>
+              <!-- this is relative to the pom.xml directory -->
+              <directory>dist</directory>
+            </resource>
+          </webResources>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <profiles>
+    <profile>
+      <id>releases</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-gpg-plugin</artifactId>
+            <version>1.6</version>
+            <executions>
+              <execution>
+                <id>sign-artifacts</id>
+                <phase>verify</phase>
+                <goals>
+                  <goal>sign</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+
+          <plugin>
+            <artifactId>maven-release-plugin</artifactId>
+            <version>2.5.3</version>
+            <dependencies>
+              <dependency>
+                <groupId>org.apache.maven.scm</groupId>
+                <artifactId>maven-scm-provider-gitexe</artifactId>
+                <version>1.9.5</version>
+              </dependency>
+            </dependencies>
+          </plugin>
+
+          <plugin>
+            <groupId>org.sonatype.plugins</groupId>
+            <artifactId>nexus-staging-maven-plugin</artifactId>
+            <version>1.6.8</version>
+            <executions>
+              <execution>
+                <id>default-deploy</id>
+                <phase>deploy</phase>
+                <goals>
+                  <goal>deploy</goal>
+                </goals>
+              </execution>
+            </executions>
+            <configuration>
+              <serverId>nexus-community</serverId>
+              <nexusUrl>https://nexus.open-esb.net/repository/maven-releases</nexusUrl>
+              <skipStaging>true</skipStaging>
+            </configuration>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>nexus-community</id>
+      <url>https://nexus.open-esb.net/repository/maven-snapshots</url>
+    </snapshotRepository>
+
+    <repository>
+      <id>nexus-community</id>
+      <url>https://nexus.open-esb.net/repository/maven-releases</url>
+    </repository>
+  </distributionManagement>
+</project>

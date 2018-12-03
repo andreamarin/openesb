@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.xml.catalogsupport">
+    <module_version install_time="1540339264136" last="true" origin="installer" specification_version="8.2">
+        <file crc="2512389773" name="config/Modules/org-netbeans-modules-xml-catalogsupport.xml"/>
+        <file crc="1521052022" name="modules/docs/org-netbeans-modules-xml-catalogsupport.jar"/>
+        <file crc="988711581" name="modules/org-netbeans-modules-xml-catalogsupport.jar"/>
+    </module_version>
+</module>

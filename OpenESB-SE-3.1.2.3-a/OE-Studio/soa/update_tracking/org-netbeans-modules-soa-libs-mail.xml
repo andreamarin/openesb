@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.soa.libs.mail">
+    <module_version install_time="1540339260696" last="true" origin="installer" specification_version="8.2">
+        <file crc="700858584" name="config/Modules/org-netbeans-modules-soa-libs-mail.xml"/>
+        <file crc="742165815" name="modules/ext/mail.jar"/>
+        <file crc="1185072835" name="modules/org-netbeans-modules-soa-libs-mail.jar"/>
+    </module_version>
+</module>

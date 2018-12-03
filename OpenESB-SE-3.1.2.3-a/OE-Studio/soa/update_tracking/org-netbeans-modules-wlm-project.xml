@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.wlm.project">
+    <module_version install_time="1540339272693" last="true" origin="installer" specification_version="8.2">
+        <file crc="2800161664" name="ant/nblib/org-netbeans-modules-wlm-project.jar"/>
+        <file crc="2495099474" name="config/Modules/org-netbeans-modules-wlm-project.xml"/>
+        <file crc="1197094190" name="modules/ext/anttask.jar"/>
+        <file crc="2910822881" name="modules/ext/chiba-1.0.0.jar"/>
+        <file crc="831832736" name="modules/ext/log4j-1.2.13.jar"/>
+        <file crc="2578455154" name="modules/ext/wfse_def-1.0.0.jar"/>
+        <file crc="1307109172" name="modules/org-netbeans-modules-wlm-project.jar"/>
+    </module_version>
+</module>

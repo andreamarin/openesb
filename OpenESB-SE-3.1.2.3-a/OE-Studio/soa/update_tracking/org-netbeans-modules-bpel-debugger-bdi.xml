@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.bpel.debugger.bdi">
+    <module_version install_time="1540339256900" last="true" origin="installer" specification_version="8.2">
+        <file crc="2235041320" name="config/Modules/org-netbeans-modules-bpel-debugger-bdi.xml"/>
+        <file crc="137974257" name="modules/ext/bdi-1.0.0.jar"/>
+        <file crc="270080618" name="modules/org-netbeans-modules-bpel-debugger-bdi.jar"/>
+    </module_version>
+</module>

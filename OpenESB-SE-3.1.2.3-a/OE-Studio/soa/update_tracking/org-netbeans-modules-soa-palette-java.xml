@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.soa.palette.java">
+    <module_version install_time="1540339263332" last="true" origin="installer" specification_version="8.2">
+        <file crc="1452245285" name="config/Modules/org-netbeans-modules-soa-palette-java.xml"/>
+        <file crc="1569518615" name="modules/docs/org-netbeans-modules-soa-palette-java.jar"/>
+        <file crc="3999073828" name="modules/org-netbeans-modules-soa-palette-java.jar"/>
+    </module_version>
+</module>

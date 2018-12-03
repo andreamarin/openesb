@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.encoder">
+    <module_version install_time="1540339262241" last="true" origin="installer" specification_version="8.2">
+        <file crc="840434608" name="config/Modules/org-netbeans-modules-encoder.xml"/>
+        <file crc="3385752931" name="modules/ext/encoderframework.jar"/>
+        <file crc="2430104566" name="modules/ext/encoderfrmwk-xsdextension.jar"/>
+        <file crc="3811292062" name="modules/org-netbeans-modules-encoder.jar"/>
+    </module_version>
+</module>

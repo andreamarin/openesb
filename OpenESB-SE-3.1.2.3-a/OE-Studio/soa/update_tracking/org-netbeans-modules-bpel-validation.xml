@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.bpel.validation">
+    <module_version install_time="1540339287931" last="true" origin="installer" specification_version="8.2">
+        <file crc="2133331960" name="config/Modules/org-netbeans-modules-bpel-validation.xml"/>
+        <file crc="124876255" name="modules/org-netbeans-modules-bpel-validation.jar"/>
+    </module_version>
+</module>

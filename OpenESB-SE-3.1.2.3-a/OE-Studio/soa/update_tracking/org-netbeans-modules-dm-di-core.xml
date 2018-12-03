@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.dm.di.core">
+    <module_version install_time="1540339272931" last="true" origin="installer" specification_version="8.2">
+        <file crc="2820749186" name="config/Modules/org-netbeans-modules-dm-di-core.xml"/>
+        <file crc="1706591458" name="modules/org-netbeans-modules-dm-di-core.jar"/>
+    </module_version>
+</module>

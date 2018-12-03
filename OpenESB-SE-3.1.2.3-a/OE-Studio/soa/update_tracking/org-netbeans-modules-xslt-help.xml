@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.xslt.help">
+    <module_version install_time="1540339289771" last="true" origin="installer" specification_version="8.2">
+        <file crc="96037140" name="config/Modules/org-netbeans-modules-xslt-help.xml"/>
+        <file crc="4244549355" name="modules/docs/org-netbeans-modules-xslt-help.jar"/>
+        <file crc="2643750172" name="modules/org-netbeans-modules-xslt-help.jar"/>
+    </module_version>
+</module>

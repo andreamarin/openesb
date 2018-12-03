@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="it.imolinfo.jbi4cics.netbeansplugin.cpy2wsdlwizard">
+    <module_version install_time="1540339262032" last="true" origin="installer" specification_version="8.2">
+        <file crc="2337054522" name="config/Modules/it-imolinfo-jbi4cics-netbeansplugin-cpy2wsdlwizard.xml"/>
+        <file crc="2247393345" name="modules/it-imolinfo-jbi4cics-netbeansplugin-cpy2wsdlwizard.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.xml.wsdl.bindingsupport.api">
+    <module_version install_time="1540339265089" last="true" origin="installer" specification_version="8.2">
+        <file crc="702427181" name="config/Modules/org-netbeans-modules-xml-wsdl-bindingsupport-api.xml"/>
+        <file crc="1533449953" name="modules/org-netbeans-modules-xml-wsdl-bindingsupport-api.jar"/>
+    </module_version>
+</module>

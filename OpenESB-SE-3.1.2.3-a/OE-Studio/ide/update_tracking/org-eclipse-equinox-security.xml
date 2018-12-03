@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.eclipse.equinox.security">
+    <module_version install_time="1526991699889" last="true" origin="Ant" specification_version="1.1.1">
+        <file crc="3928580412" name="config/Modules/org-eclipse-equinox-security.xml"/>
+        <file crc="1048554947" name="modules/org-eclipse-equinox-security.jar"/>
+    </module_version>
+</module>

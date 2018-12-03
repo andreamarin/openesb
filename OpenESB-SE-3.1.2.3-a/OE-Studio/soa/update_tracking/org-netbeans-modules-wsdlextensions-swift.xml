@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.wsdlextensions.swift">
+    <module_version install_time="1540339282503" last="true" origin="installer" specification_version="8.2">
+        <file crc="2373204600" name="config/Modules/org-netbeans-modules-wsdlextensions-swift.xml"/>
+        <file crc="3066637233" name="modules/org-netbeans-modules-wsdlextensions-swift.jar"/>
+    </module_version>
+</module>

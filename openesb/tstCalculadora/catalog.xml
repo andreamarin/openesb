@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://10.6.76.42:9080/MyCalculatorCAService1/casaPort1?WSDL" uri="xml-resources/web-service-references/casaPort1/wsdl/10.6.76.42_9080/MyCalculatorCAService1/casaPort1.wsdl"/>
+    <system systemId="http://10.6.76.42:9080/MyCalculatorCA-sun-http-binding/MyCalculator/MyCalculator.wsdl" uri="xml-resources/web-service-references/casaPort1/wsdl/10.6.76.42_9080/MyCalculatorCA-sun-http-binding/MyCalculator/MyCalculator.wsdl"/>
+    <system systemId="http://10.6.76.42:9080/MyCalculatorCA-sun-http-binding/MyCalculator/MyCalculatorSchema.xsd" uri="xml-resources/web-service-references/casaPort1/wsdl/10.6.76.42_9080/MyCalculatorCA-sun-http-binding/MyCalculator/MyCalculatorSchema.xsd"/>
+</catalog>

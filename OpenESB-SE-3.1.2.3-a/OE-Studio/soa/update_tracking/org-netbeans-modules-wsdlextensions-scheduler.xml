@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.wsdlextensions.scheduler">
+    <module_version install_time="1540339282046" last="true" origin="installer" specification_version="8.2">
+        <file crc="571795630" name="config/Modules/org-netbeans-modules-wsdlextensions-scheduler.xml"/>
+        <file crc="2027591468" name="modules/org-netbeans-modules-wsdlextensions-scheduler.jar"/>
+    </module_version>
+</module>

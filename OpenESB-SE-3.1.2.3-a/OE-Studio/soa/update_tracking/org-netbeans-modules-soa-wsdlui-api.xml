@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.soa.wsdlui.api">
+    <module_version install_time="1540339268441" last="true" origin="installer" specification_version="8.2">
+        <file crc="1277497858" name="config/Modules/org-netbeans-modules-soa-wsdlui-api.xml"/>
+        <file crc="53102084" name="modules/org-netbeans-modules-soa-wsdlui-api.jar"/>
+    </module_version>
+</module>

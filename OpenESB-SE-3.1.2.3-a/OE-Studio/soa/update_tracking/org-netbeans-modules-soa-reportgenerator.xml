@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.soa.reportgenerator">
+    <module_version install_time="1540339263533" last="true" origin="installer" specification_version="8.2">
+        <file crc="261024742" name="config/Modules/org-netbeans-modules-soa-reportgenerator.xml"/>
+        <file crc="2746930196" name="modules/ext/itext-2.0.5.jar"/>
+        <file crc="4011791957" name="modules/org-netbeans-modules-soa-reportgenerator.jar"/>
+    </module_version>
+</module>

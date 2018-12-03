@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.xml.libs.prefuse">
+    <module_version install_time="1540339264472" last="true" origin="installer" specification_version="8.2">
+        <file crc="620857723" name="config/Modules/org-netbeans-modules-xml-libs-prefuse.xml"/>
+        <file crc="3171285426" name="modules/ext/prefuse-beta.jar"/>
+        <file crc="515740697" name="modules/org-netbeans-modules-xml-libs-prefuse.jar"/>
+    </module_version>
+</module>

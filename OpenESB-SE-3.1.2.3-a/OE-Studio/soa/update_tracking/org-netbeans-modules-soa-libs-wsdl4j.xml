@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.soa.libs.wsdl4j">
+    <module_version install_time="1540339261368" last="true" origin="installer" specification_version="8.2">
+        <file crc="1983316810" name="config/Modules/org-netbeans-modules-soa-libs-wsdl4j.xml"/>
+        <file crc="53693468" name="modules/ext/qname.jar"/>
+        <file crc="4251723047" name="modules/ext/wsdl4j.jar"/>
+        <file crc="4266370797" name="modules/org-netbeans-modules-soa-libs-wsdl4j.jar"/>
+    </module_version>
+</module>

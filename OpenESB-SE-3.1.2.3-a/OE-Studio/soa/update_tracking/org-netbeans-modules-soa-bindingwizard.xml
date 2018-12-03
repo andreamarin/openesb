@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.soa.bindingwizard">
+    <module_version install_time="1540339279808" last="true" origin="installer" specification_version="8.2">
+        <file crc="3304789995" name="config/Modules/org-netbeans-modules-soa-bindingwizard.xml"/>
+        <file crc="5400522" name="modules/org-netbeans-modules-soa-bindingwizard.jar"/>
+    </module_version>
+</module>

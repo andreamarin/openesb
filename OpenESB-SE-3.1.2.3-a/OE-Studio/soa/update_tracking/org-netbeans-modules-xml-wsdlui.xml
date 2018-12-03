@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.xml.wsdlui">
+    <module_version install_time="1540339277320" last="true" origin="installer" specification_version="8.2">
+        <file crc="4267969651" name="config/Modules/org-netbeans-modules-xml-wsdlui.xml"/>
+        <file crc="2523508482" name="modules/docs/org-netbeans-modules-xml-wsdlui.jar"/>
+        <file crc="1784827396" name="modules/org-netbeans-modules-xml-wsdlui.jar"/>
+    </module_version>
+</module>

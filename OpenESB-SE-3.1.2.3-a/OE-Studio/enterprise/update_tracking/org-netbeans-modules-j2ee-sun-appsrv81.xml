@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.j2ee.sun.appsrv81">
+    <module_version install_time="1526991814819" last="true" origin="Ant" specification_version="1.13.0.1">
+        <file crc="2252187335" name="ant/nblib/org-netbeans-modules-j2ee-sun-appsrv81.jar"/>
+        <file crc="864696855" name="config/Modules/org-netbeans-modules-j2ee-sun-appsrv81.xml"/>
+        <file crc="2937057852" name="modules/ext/appsrvbridge.jar"/>
+        <file crc="3185385503" name="modules/org-netbeans-modules-j2ee-sun-appsrv81.jar"/>
+    </module_version>
+</module>

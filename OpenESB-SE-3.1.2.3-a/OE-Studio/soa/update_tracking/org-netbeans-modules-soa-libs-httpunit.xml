@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.soa.libs.httpunit">
+    <module_version install_time="1540339260099" last="true" origin="installer" specification_version="8.2">
+        <file crc="2306036173" name="config/Modules/org-netbeans-modules-soa-libs-httpunit.xml"/>
+        <file crc="1154128657" name="modules/ext/httpunit-1.6.2.jar"/>
+        <file crc="1890833658" name="modules/org-netbeans-modules-soa-libs-httpunit.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.soa.libs.jgo">
+    <module_version install_time="1540339260485" last="true" origin="installer" specification_version="8.2">
+        <file crc="1305351952" name="config/Modules/org-netbeans-modules-soa-libs-jgo.xml"/>
+        <file crc="320832136" name="modules/ext/JGo5.1.jar"/>
+        <file crc="2258227326" name="modules/ext/JGoInstruments5.1.jar"/>
+        <file crc="888999056" name="modules/ext/JGoLayout5.1.jar"/>
+        <file crc="2261969958" name="modules/org-netbeans-modules-soa-libs-jgo.jar"/>
+    </module_version>
+</module>

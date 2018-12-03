@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.xml.xpath.ext">
+    <module_version install_time="1540339266018" last="true" origin="installer" specification_version="8.2">
+        <file crc="2449682893" name="config/Modules/org-netbeans-modules-xml-xpath-ext.xml"/>
+        <file crc="2144544962" name="modules/org-netbeans-modules-xml-xpath-ext.jar"/>
+    </module_version>
+</module>
